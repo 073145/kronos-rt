@@ -89,7 +89,7 @@ def main_process_cycle():
 
 ---
 
-##📡 Upstream & Downstream Integration
+## 📡 Upstream & Downstream Integration
 
 - Upstream: Reports system health, jitter metrics, and timing violations to telemetry dashboards. Receives mode-switch commands from system agents.
 
