@@ -58,7 +58,7 @@ We selected Nim over C++ or Rust for this specific layer due to its unique compi
 
 KRONOS-RT is designed to run as a systemd service or a bare-metal task.
 
-### 1. Defining a Critical Task
+#### 1. Defining a Critical Task
 
 Register a hardware task that must execute strictly every 10ms.
 ~~~
@@ -74,7 +74,7 @@ kronos.register_task("sensor_loop", 10, 1, read_sensor_array)
 kronos.start()
 ~~~
 
-### 2. Client Handshake (Python Example)
+#### 2. Client Handshake (Python Example)
 
 High-level processes must report to KRONOS to maintain uptime.
 ~~~
