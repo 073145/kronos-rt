@@ -36,11 +36,11 @@ Mechanism: Implements a lightweight Precision Time Protocol (PTP) implementation
 
 We selected Nim over C++ or Rust for this specific layer due to its unique compilation properties:
 
-Zero-Overhead Interop: Compiles directly to optimized C, allowing seamless integration with legacy hardware drivers.
+- Zero-Overhead Interop: Compiles directly to optimized C, allowing seamless integration with legacy hardware drivers.
 
-Soft Real-Time GC: The ARC/ORC memory management strategies provide deterministic latency behavior without the complexity of manual memory management.
+- Soft Real-Time GC: The ARC/ORC memory management strategies provide deterministic latency behavior without the complexity of manual memory management.
 
-Efficiency: Delivers bare-metal performance suitable for constrained environments.
+- Efficiency: Delivers bare-metal performance suitable for constrained environments.
 
 ---
 
